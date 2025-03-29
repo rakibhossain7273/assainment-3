@@ -1,6 +1,8 @@
-import { resolve} from "path";
+import { resolve} from"path";
 import { defineConfig } from "vite";
+
 import { Script } from "vm";
+
 export default defineConfig({
     build:{
         rollupOptions:{
